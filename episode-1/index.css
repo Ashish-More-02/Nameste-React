@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#heading1{
+    color: rgb(37, 37, 255);
+}
+
+#grandparent{
+    background-color: yellow;
+    /* height: 500px; */
+    width: 500px;
+    padding: 20px;
+}
+#parent{
+    background-color: rgb(255, 115, 0);
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+#parent2{
+    background-color: rgb(0, 94, 255);
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+}
