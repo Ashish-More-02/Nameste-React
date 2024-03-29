@@ -23,6 +23,10 @@
 
 // root.render(heading);
 
+
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const element = React.createElement("div", { id: "grandparent" }, [
   React.createElement(
     "div",
