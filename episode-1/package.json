@@ -4,6 +4,8 @@
   "description": "This is Nameste React and i am learning react",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build" : "parcel build index.html",
     "test": "jest"
   },
   "author": "Ashish More",
