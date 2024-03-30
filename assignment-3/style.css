@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(212, 233, 252);
+}
+#root{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(120, 120, 244);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#jsxroot{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(132, 244, 120);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#functionjsx{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(244, 149, 120);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#butt{
+    padding: 10px;
+    font-size: 1.2 rem;
+    border-radius: 5px;
+}
+
+#header{
+    height: 20%;
+}
+#componentheader{
+    background-color: rgb(91, 91, 91);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#textbox{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    
+}
+.logo,
+.image {
+    max-width: 70px; /* Set the maximum width for the images */
+    height: auto; /* Maintain the aspect ratio */
+}

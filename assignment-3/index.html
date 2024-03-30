@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="header">
+
+    </div>
+    <div id="root">
+
+    </div>
+    <div id="jsxroot">
+
+    </div>
+    <div id="functionjsx">
+
+    </div>
+
+    <script type="module" src="./App.js"></script>
+    <script type="module" src="./Header.js"></script>
+    <!-- including these both script modules breaks the code and only displays the Header.js even though both scripts have differnt root  -->
+    <!-- but including the header component inside single component works fine -->
+</body>
+</html>
